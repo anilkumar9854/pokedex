@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/* Pokelist Component */
+.App {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.pokemon_img {
+  background-color: #2c3484;
+  padding: 10px;
+}
+
+h2 {
+  color: #f42c2c;
+}
+
+/* Pokecard Component*/
+.pokemons {
+  font-size: 1em;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 1px solid steelblue;
+  border-radius: 20px;
+  /* border-right: 1px solid #ec242c; */
+}
+
+.pokemon_names {
+  text-decoration: none;
+  color: #2c3484;
+  border-top: 1px solid steelblue;
+  /* border-bottom: 1px solid #ec242c; */
+  font-weight: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* PokeDetail Component*/
+.details {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  /* border-bottom: 1px solid black; */
+  color: #2c3484;
+}
+.detail_info label{
+  float: left;
+  padding: 5px 15px 0 0;
+  text-align: left;
+  width: 200px;
+}
+.detail_info div{
+  float: left;
+  padding-top: 5px;
+}
+.loading_icon{
+  margin-top: 50px;
+}
+.detail-img {
+  border-bottom: 1px solid black;
+  padding: 0 100px;
+}
+
+/* SearchBar Component */
+.search {
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+}
