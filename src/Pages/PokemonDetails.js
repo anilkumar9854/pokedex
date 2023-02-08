@@ -66,7 +66,7 @@ function PokemonDetails({ match }) {
       :
       <div className="details dib">
         {pokemonDetail.map( (item, index) => {
-          return <div className="detail_info">
+          return <div key={item.key} className="detail_info">
               <label>{item.key} </label><div>:  &nbsp; &nbsp;{item.value}</div>
             </div>
         })}
